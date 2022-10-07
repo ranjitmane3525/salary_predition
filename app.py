@@ -26,7 +26,7 @@ def predict():
     
     print(u_data)  
 
-    with open(r'D:\Python\Python Programming\My practice\Project\Salary Prediction\artifacts\model_lr.pkl','rb') as file:
+    with open(r'artifacts\model_lr.pkl','rb') as file:
          model1 = pickle.load(file)
          result1 =model1.predict([[u_data]])
          print(result1)
