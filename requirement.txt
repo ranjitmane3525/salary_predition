@@ -1,6 +1,7 @@
 numpy
 pandas
 sklearn
-flask
+jinja2
 Flask
+Werkzeug
 gunicorn
